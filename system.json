@@ -22,8 +22,8 @@
   "gridUnits": "m",
   "primaryTokenAttribute": "vida",
   "secondaryTokenAttribute": "coraje",
-  "url": "",
-  "manifest": "",
-  "download": "",
+  "url": "https://github.com/arimagic-8bit/RAGNAROK-Foundry-VTT",
+  "manifest": "https://github.com/arimagic-8bit/RAGNAROK-Foundry-VTT/blob/main/system.json",
+  "download": "https://github.com/arimagic-8bit/RAGNAROK-Foundry-VTT/archive/main.zip",
   "license": "LICENSE.txt"
 }
