@@ -1,0 +1,29 @@
+{
+  "name": "ragnarok",
+  "title": "RAGNAROK tercera edición",
+  "description": "The RAGNAROK tercera edición system for FoundryVTT!",
+  "version": "0.4.0",
+  "minimumCoreVersion": "0.7.5",
+  "compatibleCoreVersion": "0.7.9",
+  "templateVersion": 2,
+  "author": "Arimagic&Cecrom",
+  "esmodules": ["module/ragnarok.js"],
+  "styles": ["css/ragnarok.css"],
+  "scripts": [],
+  "packs": [],
+  "languages": [
+    {
+      "lang": "esp",
+      "name": "Español",
+      "path": "lang/esp.json"
+    }
+  ],
+  "gridDistance": 5,
+  "gridUnits": "m",
+  "primaryTokenAttribute": "vida",
+  "secondaryTokenAttribute": "coraje",
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "license": "LICENSE.txt"
+}

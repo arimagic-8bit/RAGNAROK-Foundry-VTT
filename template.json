@@ -1,0 +1,407 @@
+{
+  "actor": {
+    "types": ["character", "npc"],
+    "character": {
+      "imagen": "",
+      "nombre": "",
+      "jugador": "",
+      "profesión": {},
+      "ingresos": 0,
+      "gastos": 0,
+      "ahorros": 0,
+      "nacionalidad": [],
+      "fecha-de-nacimiento": "",
+      "etapa": [
+        "niñez",
+        "adolescencia",
+        "juventud",
+        "madurez",
+        "tercera_edad",
+        "ancianidad"
+      ],
+      "altura": "",
+      "peso": "",
+      "rasgos-físicos": "",
+      "rasgos-psicológicos": "",
+      "motivación": "",
+      "puntos-de-motivación": 0,
+      "méritos": [{}],
+      "defectos": [{}],
+      "vida": 0,
+      "coraje": 0,
+      "luz": 0,
+      "experiencia": 0,
+      "BD": 0,
+      "DA": 0,
+      "pifias": 0,
+      "dados": {
+        "ventaja": false,
+        "desventaja": false
+      },
+      "trasfondo": "",
+      "características": {
+        "fuerza": 0,
+        "constitución": 0,
+        "voluntad": 0,
+        "carisma": 0,
+        "destreza": 0,
+        "percepción": 0,
+        "esencia": 0,
+        "inteligencia": 0
+      },
+      "habilidades": {
+        "fuerza": {
+          "armas-cuerpo-a-cuerpo": {
+            "valor": 0,
+            "desventaja": false,
+            "sin-tirada": false
+          },
+          "pelea": {
+            "valor": 0,
+            "desventaja": false,
+            "sin-tirada": false
+          },
+          "constitución": {
+            "atletismo": {
+              "valor": 0,
+              "desventaja": false,
+              "sin-tirada": false
+            }
+          },
+          "voluntad": {
+            "concentración": {
+              "valor": 0,
+              "desventaja": false,
+              "sin-tirada": false
+            },
+            "frialdad": {
+              "valor": 0,
+              "desventaja": false,
+              "sin-tirada": false
+            },
+            "supervivencia": {
+              "valor": 0,
+              "desventaja": true,
+              "sin-tirada": false
+            }
+          },
+          "carisma": {
+            "conocimiento-calle": {
+              "valor": 0,
+              "desventaja": true,
+              "sin-tirada": false
+            },
+            "disfrazarse": {
+              "valor": 0,
+              "desventaja": false,
+              "sin-tirada": false
+            },
+            "intimidar": {
+              "valor": 0,
+              "desventaja": false,
+              "sin-tirada": false
+            },
+            "persuasión": {
+              "valor": 0,
+              "desventaja": false,
+              "sin-tirada": false
+            },
+            "seducción": {
+              "valor": 0,
+              "desventaja": false,
+              "sin-tirada": false
+            }
+          },
+          "destreza": {
+            "armas-distancia": {
+              "valor": 0,
+              "desventaja": true,
+              "sin-tirada": false
+            },
+            "armas-fuego": {
+              "valor": 0,
+              "desventaja": true,
+              "sin-tirada": false
+            },
+            "conducir": {
+              "valor": 0,
+              "desventaja": true,
+              "sin-tirada": false
+            },
+            "esquivar": {
+              "valor": 0,
+              "desventaja": false,
+              "sin-tirada": false
+            },
+            "explosivos": {
+              "valor": 0,
+              "desventaja": false,
+              "sin-tirada": true
+            },
+            "latrocinio": {
+              "valor": 0,
+              "desventaja": true,
+              "sin-tirada": false
+            },
+            "montar": {
+              "valor": 0,
+              "desventaja": true,
+              "sin-tirada": false
+            },
+            "navegar": {
+              "valor": 0,
+              "desventaja": false,
+              "sin-tirada": true
+            },
+            "pilotar": {
+              "valor": 0,
+              "desventaja": false,
+              "sin-tirada": true
+            },
+            "sigilo": {
+              "valor": 0,
+              "desventaja": false,
+              "sin-tirada": false
+            },
+            "tocar-instrumento": {
+              "valor": 0,
+              "desventaja": false,
+              "sin-tirada": true
+            }
+          },
+          "percepción": {
+            "archivos-bibliotecas": {
+              "valor": 0,
+              "desventaja": false,
+              "sin-tirada": false
+            },
+            "alerta": {
+              "valor": 0,
+              "desventaja": false,
+              "sin-tirada": false
+            },
+            "buscar": {
+              "valor": 0,
+              "desventaja": false,
+              "sin-tirada": false
+            },
+            "intuición": {
+              "valor": 0,
+              "desventaja": false,
+              "sin-tirada": false
+            },
+            "orientación": {
+              "valor": 0,
+              "desventaja": false,
+              "sin-tirada": false
+            }
+          },
+          "inteligencia": {
+            "antropología": {
+              "valor": 0,
+              "desventaja": false,
+              "sin-tirada": true
+            },
+            "arqueología": {
+              "valor": 0,
+              "desventaja": false,
+              "sin-tirada": true
+            },
+            "arte": {
+              "valor": 0,
+              "desventaja": true,
+              "sin-tirada": false
+            },
+            "astrología": {
+              "valor": 0,
+              "desventaja": true,
+              "sin-tirada": false
+            },
+            "astronomía": {
+              "valor": 0,
+              "desventaja": true,
+              "sin-tirada": false
+            },
+            "biología": {
+              "valor": 0,
+              "desventaja": false,
+              "sin-tirada": true
+            },
+            "cienias-ocultas": {
+              "valor": 0,
+              "desventaja": true,
+              "sin-tirada": false
+            },
+            "criptografía": {
+              "valor": 0,
+              "desventaja": false,
+              "sin-tirada": true
+            },
+            "derecho": {
+              "valor": 0,
+              "desventaja": false,
+              "sin-tirada": true
+            },
+            "economía": {
+              "valor": 0,
+              "desventaja": true,
+              "sin-tirada": false
+            },
+            "electrónica": {
+              "valor": 0,
+              "desventaja": true,
+              "sin-tirada": false
+            },
+            "física": {
+              "valor": 0,
+              "desventaja": false,
+              "sin-tirada": true
+            },
+            "geografía": {
+              "valor": 0,
+              "desventaja": true,
+              "sin-tirada": false
+            },
+            "geología": {
+              "valor": 0,
+              "desventaja": true,
+              "sin-tirada": false
+            },
+            "historia": {
+              "valor": 0,
+              "desventaja": true,
+              "sin-tirada": false
+            },
+            "idioma-extranjero": {
+              "valor": 0,
+              "desventaja": false,
+              "sin-tirada": true,
+              "idiomas": []
+            },
+            "idioma-nativo": {
+              "valor": 0,
+              "desventaja": false,
+              "sin-tirada": false
+            },
+            "informática": {
+              "valor": 0,
+              "desventaja": true,
+              "sin-tirada": false
+            },
+            "mecánica": {
+              "valor": 0,
+              "desventaja": true,
+              "sin-tirada": false
+            },
+            "medicina": {
+              "valor": 0,
+              "desventaja": false,
+              "sin-tirada": true
+            },
+            "parapsicología": {
+              "valor": 0,
+              "desventaja": false,
+              "sin-tirada": true
+            },
+            "primeros-auxílios": {
+              "valor": 0,
+              "desventaja": true,
+              "sin-tirada": false
+            },
+            "psicología": {
+              "valor": 0,
+              "desventaja": true,
+              "sin-tirada": false
+            },
+            "química": {
+              "valor": 0,
+              "desventaja": false,
+              "sin-tirada": true
+            },
+            "teología": {
+              "valor": 0,
+              "desventaja": true,
+              "sin-tirada": false
+            }
+          }
+        },
+        "posesiones": [{}],
+        "conjuros-y.rituales": [{}],
+        "armas": [{}],
+        "vehículos": [{}],
+        "estrés-temp": 0,
+        "estrés-perm": 0,
+        "trastorno": []
+      }
+    }
+  },
+  "Item": {
+    "types": ["posesiones", "armas", "vehículos"],
+    "templates": {
+      "base": {
+        "nombre": ""
+      },
+      "hechizos": {
+          "descripcion": "",
+          "estres": ""
+      },
+      "defme":{
+      "coste": 0,
+      "costeUsu": "",
+      "descripcion": ""
+      }
+    },
+    "posesiones": {
+      "templates": ["base"],
+      "descipcion": ""
+    },
+    "armas": {
+      "templates": ["base"],
+      "daño": "",
+      "municion": "",
+      "alcance": "",
+      "dpa": "",
+      "rafaga": "",
+      "deflagracion": ""
+    },
+    "vehiculos": {
+      "templates": ["base"],
+      "vel": 0,
+      "ace": 0,
+      "man": 0,
+      "pi": 0,
+      "da": 0
+    },
+    "hechizos": {
+      "types": ["magia", "paranormal"],
+      "magia": {
+        "templates": ["base", "hechizos"],
+        "tl": "",
+        "duracion": "",
+        "dif": "",
+        "pl": 0,
+        "componentes": ""
+      },
+      "paranormal": {
+        "templates": ["base", "hechizos"],
+        "manifestacion": "",
+        "duracion": "",
+        "efectos": { "0": "", "1-5": "", "6-10": "", "11-12": "", "13+": "" }
+      }
+    },
+    "profesion": {
+      "templates": ["base"],
+      "coste": "",
+      "edad": "",
+      "habilidades": [{}],
+      "descripcion": "",
+      "ingreso": "d20"
+    },
+    "defectos": {
+      "templates":["base","defme"]
+    },
+    "meritos": {
+      "templates":["base","defme"]
+    }
+  }
+}
