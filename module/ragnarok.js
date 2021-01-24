@@ -3,6 +3,8 @@ import { RagnarokActor } from "./actor/actor.js";
 import { RagnarokActorSheet } from "./actor/actor-sheet.js";
 import { RagnarokItem } from "./item/item.js";
 import { RagnarokItemSheet } from "./item/item-sheet.js";
+import { iniciativa } from "./combat/combat.js";
+
 
 Hooks.once('init', async function() {
 
@@ -15,10 +17,8 @@ Hooks.once('init', async function() {
    * Set an initiative formula for the system
    * @type {String}
    */
-  CONFIG.Combat.initiative = {
-    formula: "1d20",
-    decimals: 2
-  };
+  CONFIG.Combat.initiative = "1d20 + @caracteristicas.destreza + @habilidades.percepcion.alerta";
+  Combat.prototype.iniciativa = iniciativa;
 
   // Define custom Entity classes
   CONFIG.Actor.entityClass = RagnarokActor;
